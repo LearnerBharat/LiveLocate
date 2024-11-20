@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    width: 100%;
+    height: 80vh;
+}
+
+header {
+    background: #2C6B3F; /* Forest green */
+    color: #F4F1E1; /* Light beige */
+    padding: 1rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #F4F1E1; /* Beige */
+    color: #2C6B3F; /* Forest green for text */
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #2C6B3F; /* Forest green */
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #3E6B3B; /* Darker green for hover effect */
+}
+
+footer .address {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer .copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.social-media-links a {
+    color: #2C6B3F; /* Forest green */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #2C6B3F; /* Forest green */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #3E6B3B; /* Darker green hover */
+}
